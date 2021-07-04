@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS Development</title>
+    <link href="../img/iOSDev/iOS-dev-icon.png" rel="shortcut icon">
+    <link href="../style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#ios-dev" class="nav">Хто такий iOS Developer?</a>
+            <a href="#tech-skills" class="nav">Що потрібно знати iOS Developer'у?</a>
+            <a href="#programs" class="nav">Що потрібно iOS Developer'у?</a>
+            <a href="#salary" class="nav">Які зарплати у iOS Developer'ів?</a>
+        </nav>      
+    </header> 
+
+    <!--Who is iOS Developer?-->
+    <section>
+        <h2 id="ios-dev" class="name-section">Хто такий iOS Developer?</h2>
+        
+        <div class="block-content-blocks">
+            <div class="content-block">
+                <img src="../img/iOSDev/iOS-dev.png" alt="iOS Developer" width="207.5" height="100" align="right">
+
+                <p>iOS-розробники - відносно молода гільдія. З'явилася через 2 роки після iPhone. Йшов непростий 
+                післякризовий 2009 рік. Саме в той момент Apple вирішила дати можливість стороннім розробникам помацати 
+                <a href="#iOS-SDK">iPhone SDK</a>. І тут понеслося.</p>
+
+                <p>Через рік-два навіть позаштатна чебуречна в Празі або в Амстердамі мала власний додаток в AppStore. 
+                З'явився навіть дуже вузький ринок індивідуальних програм (додаток робиться для однієї людини і не 
+                поширюється через AppStore, встановлюється тільки на пристрій замовника): дорого, багато, і ще стільки ж за 
+                нерозголошення.</p>
+
+                <p>Чи треба говорити, що професія гіперпопулярна? Ні, не треба. За даними Apple, за станом на літо 2020 року 
+                налічується близько 23 мільйонів зареєстрованих розробників. Така популярність в свою чергу породжує інші - в 
+                основному для роботодавця - проблеми. Наприклад, перегрітий ринок. На даний момент він насичений фахівцями 
+                середнього і початкового рівня. Компаніям часто складно знайти і утримати хорошого досвідченого фахівця. З 
+                іншого боку, хто сказав, що конкуренція - це погано?</p>
+
+                <p>Спочатку більшість iOS програмістів були тими, хто перекочував з суміжних областей, тобто вони вже були 
+                айтішниками зі сфери розробки. Ситуація змінилася, і зараз чимало людей, для яких iOS (так само як і 
+                Android) - початок шляху в ІТ-галузі.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Tech Skills-->
+    <section>
+        <h2 id="tech-skills" class="name-section">Що потрібно знати iOS Developer'у?</h2>
+
+        <div class="block-content-blocks">
+            <!--Objective-C-->
+            <div id="Obj-C" class="content-block">
+                <img src="../img/iOSDev/tech-skills/obj-c.png" alt="Objective-C" width="200" height="200" align="right">
+                <h2>Objective-C</h2>
+
+                <p>Objective-C - компільований об'єктно-орієнтована мова програмування, що використовується корпорацією Apple, 
+                побудований на основі мови Сі і парадигм Smalltalk. Зокрема, об'єктна модель побудована в стилі Smalltalk - 
+                тобто об'єктам надсилаються повідомлення.</p>
+
+                <p>Мова Objective-C є надбезліччю мови Сі, тому Сі-код повністю зрозумілий компілятору Objective-C.</p>
+
+                <p>Компілятор Objective-C входить в GCC і доступний на більшості основних платформ. Мова використовується в 
+                першу чергу для Mac OS X (Cocoa) і GNUstep - реалізацій об'єктно-орієнтованого інтерфейсу OpenStep. Також мова 
+                використовується для iOS (Cocoa Touch).</p>
+
+                <p><br><a href="https://ru.wikipedia.org/wiki/Objective-C" target="_blank" class="nav">Дізнатись більше про Obj-C</a></p>
+            </div>
+        
+            <!--Swift-->
+            <div id="Swift" class="content-block">
+                <img src="../img/iOSDev/tech-skills/Swift.png" alt="Swift" width="200" height="200" align="right">
+                <h2>Swift</h2>
+
+                <p>Swift - відкритий мультипарадигмальності компільований мова програмування загального призначення. 
+                Створено компанією Apple в першу чергу для розробників iOS і macOS (зараз вийшов за рамки цих ОС). Swift 
+                працює з фреймворками Cocoa і Cocoa Touch і сумісний з основною кодової базою Apple, написаної на 
+                <a href="#Obj-C">Objective-C</a>. Swift замислювався як більш легкий для читання і стійкий до помилок 
+                програміста мова, ніж передував йому <a href="#Obj-C">Objective-C</a>. Програми на Swift компілюються за 
+                допомогою LLVM, що входить в інтегровану середу розробки <a href="#XCode">Xcode</a> 6 і вище. Swift може використовувати рантайм 
+                <a href="#Obj-C">Objective-C</a>, що робить можливим використання обох мов (а також С) в рамках однієї 
+                програми.</p>
+
+                <p><br><a href="https://ru.wikipedia.org/wiki/Swift_(%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)" target="_blank" class="nav">Дізнатись більше про Swift</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!--Programs-->
+    <section>
+        <h2 id="programs" class="name-section">Що потрібно iOS Developer'у?</h2>
+        
+        <div class="block-content-blocks">
+            
+            <!--XCode-->
+            <div id="XCode" class="content-block">
+                <img src="../img/iOSDev/programs/XCode.png" alt="XCode" width="200" height="200" align="right">
+                <h2>XCode</h2>
+
+                <p>Xcode - інтегроване середовище розробки (IDE) програмного забезпечення для платформ macOS, iOS, watchOS 
+                і tvOS, розроблена корпорацією Apple. Перша версія випущена в 2003 році. Стабільні версії поширюються 
+                безкоштовно через Mac App Store. Зареєстровані розробники також мають доступ до бета-збірок через сайт 
+                Apple Developer.</p>
+
+                <p><br><a href="https://ru.wikipedia.org/wiki/Xcode" target="_blank" class="nav">Дізнатись більше про XCode</a></p>
+            </div>
+
+            <!--iOS SDK-->
+            <div id="iOS-SDK" class="content-block">
+                <img src="../img/iOSDev/programs/iOS SDK.png" alt="iPhone SDK" width="180" height="180" align="right">
+                <h2>iOS SDK</h2>
+
+                <p>iOS SDK (раніше iPhone SDK) - комплект засобів розробки для iOS, випущений в березні 2009 року 
+                корпорацією Apple. iOS SDK випускається тільки для Mac OS X.</p>
+
+                <p><br><a href="https://ru.wikipedia.org/wiki/IOS_SDK" target="_blank" class="nav">Дізнатись більше про iOS SDK</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!--Salary-->
+    <section class="salary">
+        <h2 id="salary" class="name-section">Які зарплати у iOS Developer'ів в Україні?</h2>
+        
+        <!--Junior-->
+        <div class="junior content-block">
+            <h2>Junior</h2>
+            <p>$X700/міс</p>
+        </div>
+
+        <!--Middle-->
+        <div class="middle content-block">
+            <h2>Middle</h2>
+            <p>$2000/міс</p>
+        </div>
+
+        <!--Senior-->
+        <div class="senior content-block">
+            <h2>Senior</h2>
+            <p>$3800/міс</p>
+        </div>
+    </section>
+
+    <!--Button-->
+    <section>
+        <p align="center" class="p-button"><a href="../index.html" class="back-button">На головну</a></p>
+    </section>
+
+    <!--Instagram & Telegram-->
+    <footer class="page-footer">
+        <p><a href="https://www.instagram.com/o5tapov/?hl=ru" target="_blank">Instagram</a> & <a href="https://t.me/o5tapov" target="_blank">Telegram</a>: @o5tapov</p>
+    </footer>
+</body>
+</html>
